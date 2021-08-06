@@ -173,3 +173,7 @@ export const DEFAULT_TOKENS_COIN_GECKO_ID_BOOK : { [address: string]: string } =
   '0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2': 'maker',
   '0x35101c731b1548B5e48bb23F99eDBc2f5c341935': 'blackholeswap-compound-dai-usdc',
 }
+
+export const DAPP_SUPPORT_CAHIN : { [dappName:string] : number[] } = {
+  'guildbank' : [ChainId.MAINNET, ChainId.KOVAN]
+}

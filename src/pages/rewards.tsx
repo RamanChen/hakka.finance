@@ -9,7 +9,7 @@ const RewardsPage = () => {
       {/* <BlankScreen 
         path={'rewards'}
       /> */}
-      <VestingPage />
+      {/* <VestingPage /> */}
     </DappLayout>
   )
 }
